@@ -27,6 +27,7 @@ const userSchema = new mongoose.Schema({
             ref: 'Friendship' 
         }
     ]
+
 }, {
     timestamps: true
 });
